@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Budget Tracker</h1>
+        <div class="budget">
+            <div class="budget-total">
+                <p>Total Budget</p>
+                <span id="total-budget">Rs 0.00</span>
+            </div>
+            <div class="budget-form">
+                <input type="text" id="expense-description" placeholder="Expense Description">
+                <input type="number" id="expense-amount" placeholder="Expense Amount">
+                <button id="add-expense">Add Expense</button>
+            </div>
+        </div>
+        <div class="expenses">
+            <h2>Expenses</h2>
+            <ul id="expense-list">
+                <!-- Expense items will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
